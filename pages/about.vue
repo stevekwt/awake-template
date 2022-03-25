@@ -5,6 +5,7 @@
       subtitle="Example About Page"
       image="/uploads/about-hero.jpg"
     ></site-hero>
+    <div id="insert-fr" style="height:80vh;"></div>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
@@ -105,3 +106,14 @@ export default {
   components: { QuoteCard }
 }
 </script>
+
+<script
+  type="application/javascript"
+  defer
+  id="synode3D"
+  src="https://app.synode.ai/js/viewer.js"
+  target="insert-fr"
+  instruction-id="7"
+  client-id="1"
+  lang="fr"
+></script>
